@@ -32,7 +32,7 @@ We created a template in Padlet that is freely available. You can make a copy of
 
 Prior to the design session, facilitators can send their participants the prompt as well as a link to the Talisman Padlet. Participants can choose any file type to share, and are instructed to click a “+” button in the bottom right-hand corner of the shared canvas to upload their materials. We created a video recording demonstrating how users can upload their objects to the Talisman Padlet, as well as examples of different types of media they could upload. You can find the video below:
 
-{{< embeded src="https://www.youtube.com/embed/oDBwO9dm9Bc?si=CQjPfKUXkgs2IARN" w="65%" h="450px" >}}
+{{< embeded src="https://youtu.be/kjk7jUCFM3s" w="65%" h="450px" >}}
 
 # Further Reading
 
