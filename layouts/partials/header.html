@@ -1,0 +1,34 @@
+<header class="cover bg-top"
+   style="background-image: url('https://rizi97.github.io/talisman-hugo/assets/images/bg-hero.jpg');">
+   <div>
+      <div class="flex justify-between items-center pa5 pb3 pt3" id="custom_navigation">
+         <a href="{{.Site.BaseURL}}" class="header-logo">
+            <img src="{{site.Params.siteLogo}}" />
+         </a>
+         <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+               {{ range .Site.Menus.main_menu }}
+               <li class="{{ if eq .Identifier $.Page.Params.menu.main_menu.identifier }} active{{ end }}">
+                  <a href="{{ .URL }} ">{{ .Name }}</a>
+                  {{ if .HasChildren }}
+                  <ul class="nav-dropdown">
+                     {{ range .Children }}
+                     <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                     </li>
+                     {{ end }}
+                  </ul>
+                  {{ end }}
+               </li>
+               {{ end }}
+            </ul>
+         </nav>
+      </div>
+
+      {{ if eq $.Page.Params.menu.main_menu.identifier "home" }}
+      {{ partial "hero-banner" . }}
+      {{ end }}
+
+   </div>
+</header>
