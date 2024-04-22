@@ -1,4 +1,4 @@
-baseURL = 'https://talismantoolkit.github.io/TalismanToolkit/'
+baseURL = 'https://www.talismantoolkit.com/'
 languageCode = 'en'
 title = 'Talisman'
 
@@ -86,4 +86,4 @@ title = 'Talisman'
 
 
 [Params]
-siteLogo = "https://talismantoolkit.github.io/TalismanToolkit/assets/images/logo.png"
+siteLogo = "https://www.talismantoolkit.com/assets/images/logo.png"
